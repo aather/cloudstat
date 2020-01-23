@@ -8,8 +8,6 @@ Python agent reads tcp per connection stats via /proc/net/tcpprobe and appends i
 
 java script (agularjs) converts JSON objects into D3 graphs that can be used to view it in browser. 
 
-[cloudstat live demo](http://cloudstat.cloudperf.net/index.html?key1=ec2-52-8-155-144.us-west-1.compute.amazonaws.com:7415) - Click Start/Stop button
-
 Compile tcpprobe driver. Makefile is provided in tcpprobe directory
  - cd tcpprobe
  - make 
